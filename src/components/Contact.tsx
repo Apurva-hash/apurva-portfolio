@@ -113,7 +113,7 @@ export const Contact: React.FC = () => {
                   rel="noopener noreferrer"
                   className="channel-value"
                 >
-                  github.com/moncydev
+                  github.com/Apurva-hash
                 </a>
               </div>
             </div>

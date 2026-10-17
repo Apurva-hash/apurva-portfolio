@@ -69,10 +69,10 @@ export const PERSONAL_INFO = {
   bio: "Final-year Bachelor of Computer Applications (BCA) student focused on creating intuitive, accessible, and user-centered enterprise digital experiences. Bridging technical frontend foundations with human-centered design thinking, information hierarchy, and clean systems thinking.",
   shortIntro:
     "I craft intuitive, accessible, and user-centered enterprise digital experiences. Combining my computer applications foundation with design systems, wireframing, and usability heuristics.",
-  email: "apurva.designer@example.com",
+  email: "apurvahippargi09@gmail.com",
   phone: "+91 98765 43210",
   linkedin: "https://linkedin.com/in/apurva-hippargi",
-  github: "https://github.com/moncydev",
+  github: "https://github.com/Apurva-hash",
   resumePath: "/resume.pdf",
 };
 
