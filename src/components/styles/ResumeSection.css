@@ -1,0 +1,239 @@
+/* Resume Section Styles */
+.resume-section {
+  padding: 80px 0;
+  position: relative;
+}
+
+.resume-display-card {
+  padding: var(--space-8);
+  border: 1px solid var(--border-hover);
+}
+
+.resume-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-6);
+  padding-bottom: var(--space-6);
+  border-bottom: 1px solid var(--border-card);
+  margin-bottom: var(--space-6);
+  flex-wrap: wrap;
+}
+
+.resume-applicant-info {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+.resume-doc-icon {
+  width: 54px;
+  height: 54px;
+  border-radius: var(--radius-lg);
+  background: rgba(99, 102, 241, 0.15);
+  border: 1px solid rgba(99, 102, 241, 0.35);
+  color: #818cf8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.applicant-name {
+  font-size: 1.45rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.applicant-target {
+  font-size: 0.88rem;
+  color: var(--accent-cyan);
+  font-weight: 500;
+  margin-top: 2px;
+}
+
+.resume-cta-buttons {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+}
+
+.resume-download-cta {
+  padding: 12px 24px;
+}
+
+/* Highlights Grid */
+.resume-highlights-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: var(--space-6);
+}
+
+.highlight-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.column-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: var(--space-3);
+}
+
+.column-title svg {
+  color: var(--accent-primary);
+}
+
+.highlight-content-box {
+  padding: 16px;
+  background: #0d1424;
+  border: 1px solid #1e293b;
+  border-radius: var(--radius-md);
+  height: 100%;
+}
+
+.box-title-bold {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 2px;
+}
+
+.box-sub {
+  font-size: 0.78rem;
+  color: var(--accent-emerald);
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.box-desc {
+  font-size: 0.84rem;
+  line-height: 1.5;
+  color: var(--text-muted);
+}
+
+.highlight-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 16px;
+  background: #0d1424;
+  border: 1px solid #1e293b;
+  border-radius: var(--radius-md);
+  height: 100%;
+}
+
+.highlight-list li {
+  font-size: 0.84rem;
+  line-height: 1.5;
+  color: var(--text-muted);
+}
+
+.highlight-list strong {
+  color: #ffffff;
+}
+
+.toolkit-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 16px;
+  background: #0d1424;
+  border: 1px solid #1e293b;
+  border-radius: var(--radius-md);
+  height: 100%;
+}
+
+.toolkit-pill {
+  display: inline-block;
+  padding: 6px 12px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid #334155;
+  border-radius: var(--radius-full);
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
+/* Embedded Document Preview */
+.embedded-resume-preview {
+  margin-top: var(--space-8);
+  padding-top: var(--space-8);
+  border-top: 1px solid var(--border-card);
+  animation: fadeIn 250ms ease-out;
+}
+
+.document-mock-sheet {
+  background: #080d18;
+  border: 1px solid #334155;
+  border-radius: var(--radius-lg);
+  padding: 36px 40px;
+  max-width: 800px;
+  margin: 0 auto;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+}
+
+.sheet-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sheet-name {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.sheet-title {
+  font-size: 0.95rem;
+  color: var(--accent-cyan);
+  font-weight: 600;
+  margin: 4px 0;
+}
+
+.sheet-contact {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+.sheet-divider {
+  height: 1px;
+  background: #1e293b;
+  margin: 16px 0 24px;
+}
+
+.sheet-section {
+  margin-bottom: 20px;
+}
+
+.sheet-section-title {
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: #818cf8;
+  border-bottom: 1px solid rgba(129, 140, 248, 0.2);
+  padding-bottom: 4px;
+  margin-bottom: 8px;
+}
+
+.sheet-text {
+  font-size: 0.85rem;
+  line-height: 1.65;
+  color: var(--text-secondary);
+}
+
+.sheet-text strong {
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .document-mock-sheet {
+    padding: 20px;
+  }
+}

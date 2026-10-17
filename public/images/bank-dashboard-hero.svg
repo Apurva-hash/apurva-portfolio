@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bankBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1320" />
+      <stop offset="100%" stop-color="#040711" />
+    </linearGradient>
+    <linearGradient id="bankCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141f33" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#0c1626" stop-opacity="0.9" />
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+    <linearGradient id="funnel1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#60a5fa" />
+    </linearGradient>
+    <linearGradient id="funnel2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#a78bfa" />
+    </linearGradient>
+    <linearGradient id="funnel3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#34d399" />
+    </linearGradient>
+  </defs>
+
+  <!-- Container -->
+  <rect width="1200" height="750" rx="16" fill="url(#bankBg)" stroke="#1e293b" stroke-width="1.5" />
+
+  <!-- Top Navigation & Header Bar -->
+  <rect width="1200" height="56" rx="16" fill="#0f172a" />
+  <rect y="44" width="1200" height="12" fill="#0f172a" />
+  <line x1="0" y1="56" x2="1200" y2="56" stroke="#1e293b" stroke-width="1" />
+
+  <!-- Title & Subtitle -->
+  <rect x="24" y="12" width="32" height="32" rx="8" fill="url(#purpleGrad)" />
+  <text x="33" y="33" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="900">B</text>
+  <text x="68" y="28" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="800">BankEDA Insights</text>
+  <text x="68" y="42" fill="#a78bfa" font-family="Inter, system-ui, sans-serif" font-size="10" font-weight="600">EXPLORATORY DATA ANALYSIS • INFORMATION DESIGN ARCHITECTURE</text>
+
+  <!-- Stats Pills -->
+  <rect x="760" y="14" width="160" height="28" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1" />
+  <text x="774" y="32" fill="#94a3b8" font-family="Inter, system-ui, sans-serif" font-size="11">Dataset: 45,211 Records</text>
+
+  <rect x="930" y="14" width="140" height="28" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1" />
+  <text x="946" y="32" fill="#94a3b8" font-family="Inter, system-ui, sans-serif" font-size="11">Features: 16 Variables</text>
+
+  <rect x="1080" y="14" width="96" height="28" rx="6" fill="#10b981" />
+  <text x="1094" y="32" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="700">Validated</text>
+
+  <!-- Content -->
+  <g transform="translate(24, 76)">
+    <!-- 3 Core Analytical Summary Cards -->
+    <g transform="translate(0, 0)">
+      <rect width="365" height="106" rx="12" fill="url(#bankCard)" stroke="#1e293b" stroke-width="1.5" />
+      <text x="20" y="30" fill="#94a3b8" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600">TOTAL TELEMARKETING CONTACTS</text>
+      <text x="20" y="66" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="900">45,211</text>
+      <text x="20" y="90" fill="#38bdf8" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600">100% Raw Sample Baseline</text>
+    </g>
+
+    <g transform="translate(393, 0)">
+      <rect width="365" height="106" rx="12" fill="url(#bankCard)" stroke="#1e293b" stroke-width="1.5" />
+      <text x="20" y="30" fill="#94a3b8" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600">ENGAGED CALLS (&gt; 180 SECONDS)</text>
+      <text x="20" y="66" fill="#a78bfa" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="900">17,180</text>
+      <text x="20" y="90" fill="#a78bfa" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600">38% Engagement Threshold</text>
+    </g>
+
+    <g transform="translate(786, 0)">
+      <rect width="366" height="106" rx="12" fill="url(#bankCard)" stroke="#1e293b" stroke-width="1.5" />
+      <text x="20" y="30" fill="#94a3b8" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600">TERM DEPOSIT CONVERSIONS</text>
+      <text x="20" y="66" fill="#34d399" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="900">5,289</text>
+      <text x="20" y="90" fill="#10b981" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600">11.7% Net Conversion Rate</text>
+    </g>
+
+    <!-- Funnel Visualization Card (Left) -->
+    <g transform="translate(0, 126)">
+      <rect width="560" height="490" rx="12" fill="url(#bankCard)" stroke="#1e293b" stroke-width="1.5" />
+      <text x="24" y="34" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="700">Conversion Funnel &amp; Information Flow</text>
+      <text x="24" y="52" fill="#94a3b8" font-family="Inter, system-ui, sans-serif" font-size="11">Illustrating drop-off stages and cognitive engagement tipping points.</text>
+
+      <!-- Funnel Stage 1 -->
+      <g transform="translate(24, 80)">
+        <polygon points="0,0 512,0 450,70 62,70" fill="url(#funnel1)" rx="8" />
+        <text x="256" y="32" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="700">STAGE 1: TOTAL REACHED (100% • 45,211)</text>
+        <text x="256" y="52" text-anchor="middle" fill="#dbeafe" font-family="Inter, system-ui, sans-serif" font-size="11">Initial cold outreach across cellular &amp; telephone channels</text>
+      </g>
+
+      <!-- Dropoff 1 -->
+      <text x="490" y="172" fill="#ef4444" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600">▼ 62% Drop-off (&lt;3 min)</text>
+
+      <!-- Funnel Stage 2 -->
+      <g transform="translate(24, 180)">
+        <polygon points="62,0 450,0 370,70 142,70" fill="url(#funnel2)" />
+        <text x="256" y="32" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="700">STAGE 2: INTEREST ESTABLISHED (38% • 17,180)</text>
+        <text x="256" y="52" text-anchor="middle" fill="#f3e8ff" font-family="Inter, system-ui, sans-serif" font-size="11">Clients engaged past 3-minute pitch threshold</text>
+      </g>
+
+      <!-- Dropoff 2 -->
+      <text x="440" y="272" fill="#ef4444" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600">▼ 69.2% Drop-off</text>
+
+      <!-- Funnel Stage 3 -->
+      <g transform="translate(24, 280)">
+        <polygon points="142,0 370,0 310,70 202,70" fill="url(#funnel3)" />
+        <text x="256" y="32" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="700">STAGE 3: SUBSCRIPTION (11.7% • 5,289)</text>
+        <text x="256" y="52" text-anchor="middle" fill="#ecfdf5" font-family="Inter, system-ui, sans-serif" font-size="11">Successful term deposit commitment</text>
+      </g>
+
+      <!-- Key Insight Box -->
+      <rect x="24" y="380" width="512" height="85" rx="8" fill="#0f172a" stroke="#334155" stroke-width="1" />
+      <text x="40" y="405" fill="#f59e0b" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700">💡 UI/UX Information Design Takeaway:</text>
+      <text x="40" y="425" fill="#cbd5e1" font-family="Inter, system-ui, sans-serif" font-size="11">When call duration crossed 180s, conversion likelihood jumped by 420%.</text>
+      <text x="40" y="443" fill="#94a3b8" font-family="Inter, system-ui, sans-serif" font-size="11">Recommendation: Telecaller CRM interfaces need real-time script pacing widgets.</text>
+    </g>
+
+    <!-- Demographic Cluster Matrix (Right) -->
+    <g transform="translate(584, 126)">
+      <rect width="568" height="490" rx="12" fill="url(#bankCard)" stroke="#1e293b" stroke-width="1.5" />
+      <text x="24" y="34" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="700">Demographic Segment Conversion Matrix</text>
+      <text x="24" y="52" fill="#94a3b8" font-family="Inter, system-ui, sans-serif" font-size="11">Segmenting customer propensity to tailor CRM interface card priority.</text>
+
+      <!-- Segment 1: Students -->
+      <g transform="translate(24, 80)">
+        <rect width="520" height="74" rx="8" fill="#0f172a" stroke="#10b981" stroke-width="1" />
+        <circle cx="28" cy="37" r="14" fill="#064e3b" />
+        <text x="24" y="42" fill="#34d399" font-family="Inter, system-ui, sans-serif" font-size="14">🎓</text>
+        <text x="54" y="28" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600">Students (Age &lt; 25)</text>
+        <text x="54" y="46" fill="#94a3b8" font-family="Inter, system-ui, sans-serif" font-size="11">No housing loan burden, high responsiveness to digital savings</text>
+        <text x="430" y="40" fill="#34d399" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="800">28.7%</text>
+        <text x="430" y="56" fill="#64748b" font-family="Inter, system-ui, sans-serif" font-size="10">Conversion</text>
+      </g>
+
+      <!-- Segment 2: Retired -->
+      <g transform="translate(24, 168)">
+        <rect width="520" height="74" rx="8" fill="#0f172a" stroke="#10b981" stroke-width="1" />
+        <circle cx="28" cy="37" r="14" fill="#064e3b" />
+        <text x="24" y="42" fill="#34d399" font-family="Inter, system-ui, sans-serif" font-size="14">🏖️</text>
+        <text x="54" y="28" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600">Retired Seniors (Age 60+)</text>
+        <text x="54" y="46" fill="#94a3b8" font-family="Inter, system-ui, sans-serif" font-size="11">Liquid capital reserves, seeking secure fixed-interest returns</text>
+        <text x="430" y="40" fill="#34d399" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="800">23.4%</text>
+        <text x="430" y="56" fill="#64748b" font-family="Inter, system-ui, sans-serif" font-size="10">Conversion</text>
+      </g>
+
+      <!-- Segment 3: Management -->
+      <g transform="translate(24, 256)">
+        <rect width="520" height="74" rx="8" fill="#0f172a" stroke="#6366f1" stroke-width="1" />
+        <circle cx="28" cy="37" r="14" fill="#1e1b4b" />
+        <text x="24" y="42" fill="#a5b4fc" font-family="Inter, system-ui, sans-serif" font-size="14">💼</text>
+        <text x="54" y="28" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600">Management &amp; Tech Professionals</text>
+        <text x="54" y="46" fill="#94a3b8" font-family="Inter, system-ui, sans-serif" font-size="11">High income but actively diversifying into equities</text>
+        <text x="430" y="40" fill="#818cf8" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="800">11.2%</text>
+        <text x="430" y="56" fill="#64748b" font-family="Inter, system-ui, sans-serif" font-size="10">Conversion</text>
+      </g>
+
+      <!-- Segment 4: Blue-Collar -->
+      <g transform="translate(24, 344)">
+        <rect width="520" height="74" rx="8" fill="#0f172a" stroke="#f43f5e" stroke-width="1" />
+        <circle cx="28" cy="37" r="14" fill="#4c0519" />
+        <text x="24" y="42" fill="#fda4af" font-family="Inter, system-ui, sans-serif" font-size="14">⚙️</text>
+        <text x="54" y="28" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600">Blue-Collar &amp; Services</text>
+        <text x="54" y="46" fill="#94a3b8" font-family="Inter, system-ui, sans-serif" font-size="11">Heavy mortgage commitments; low disposable liquidity</text>
+        <text x="430" y="40" fill="#f43f5e" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="800">7.3%</text>
+        <text x="430" y="56" fill="#64748b" font-family="Inter, system-ui, sans-serif" font-size="10">Conversion</text>
+      </g>
+
+      <!-- Bottom Insight -->
+      <rect x="24" y="430" width="520" height="42" rx="6" fill="#1e293b" />
+      <text x="36" y="456" fill="#94a3b8" font-family="Inter, system-ui, sans-serif" font-size="11">🎯 CRM Action: Flag leads with "High Propensity" tags based on demographic criteria.</text>
+    </g>
+  </g>
+</svg>
