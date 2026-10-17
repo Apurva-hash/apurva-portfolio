@@ -95,7 +95,7 @@ export const Contact: React.FC = () => {
                   rel="noopener noreferrer"
                   className="channel-value"
                 >
-                  linkedin.com/in/apurva-hippargi
+                  linkedin.com/in/apurva-hippargi-78b236342
                 </a>
               </div>
             </div>

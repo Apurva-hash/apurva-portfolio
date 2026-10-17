@@ -71,7 +71,7 @@ export const PERSONAL_INFO = {
     "I craft intuitive, accessible, and user-centered enterprise digital experiences. Combining my computer applications foundation with design systems, wireframing, and usability heuristics.",
   email: "apurvahippargi09@gmail.com",
   phone: "+91 98765 43210",
-  linkedin: "https://linkedin.com/in/apurva-hippargi",
+  linkedin: "https://www.linkedin.com/in/apurva-hippargi-78b236342",
   github: "https://github.com/Apurva-hash",
   resumePath: "/resume.pdf",
 };

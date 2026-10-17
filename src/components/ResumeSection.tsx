@@ -120,7 +120,7 @@ export const ResumeSection: React.FC = () => {
                     {PERSONAL_INFO.title} • BCA Student • Candidate for {PERSONAL_INFO.targetCompany}
                   </div>
                   <div className="sheet-contact">
-                    {PERSONAL_INFO.email} • {PERSONAL_INFO.phone} • {PERSONAL_INFO.linkedin}
+                    {PERSONAL_INFO.email} • {PERSONAL_INFO.phone} • {PERSONAL_INFO.linkedin.replace(/^https?:\/\/(www\.)?/, "")}
                   </div>
                 </div>
 
